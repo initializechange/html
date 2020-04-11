@@ -3,24 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <title>Permission Slip for my Child</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
     </head>
     <body>
+    <div id="outside">
         <h1> Application for permission for Field Trip</h1>
         <h4> Note: <i>We will be going to the Zoo.</i></h4>
-
+    <div class="inputs">
         <fieldset>
             <legend>Personal Details</legend>
             <div style="margin:10px">
                 <label>Name</label>
-                <input type="text" placeholder="Enter in Name here">
+                <input type="text" id="personal" placeholder="Enter in Name here">
             </div>
             <div style="margin:10px">
                 <label>Address</label>
-                <input type="text" placeholder="Enter in Address here">
+                <input type="text" id="personal" placeholder="Enter in Address here">
             </div>
             <div style="margin:10px">
                 <label>Email</label>
-                <input type="text" placeholder="Enter in Email here">
+                <input type="text" id="personal" placeholder="Enter in Email here">
             </div>
             <div>
             
@@ -54,9 +56,12 @@
         </fieldset>
         <fieldset>
             <label>Attach a picture of you and your child</label>
-            <a href="https://www.worldwildlife.org/"><button>Attach File</button></a>
+            <div class="submitbutton"><a href="https://www.worldwildlife.org/"><button >Attach File</button></a></div>
         </fieldset>
         <a href="https://www.stanford.edu/"><img src="stanford.jpg"></a>
         <textarea placeholder="Describe your experience"></textarea>
+    </div>
+    </div>
     </body>
+   
 </html>

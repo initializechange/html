@@ -1,0 +1,67 @@
+body {
+    font-family: 'Anaheim';
+    font-size: 1.2em;
+}
+
+#outside {
+    background-color: lightgoldenrodyellow;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h4 {
+    font-size: 1.0em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.inputs {
+    margin: 0 auto;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #ffffff;
+
+}
+
+fieldset {
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+
+legend {
+    font-weight: 700;
+}
+
+#personal {
+    width: 150px;
+}
+
+input, textarea {
+    width: 200px;
+    border: 1px solid #999;
+}
+
+button {
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+.submitbutton {
+    display: flex;
+    justify-content: center;
+}
