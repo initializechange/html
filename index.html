@@ -2,43 +2,42 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title> Lion Webpage</title>
 
+        <title> To-Do</title>
+
+        <link rel="stylesheet" href="styles.css" type="text/css">
     </head>
     <body>
+        <div class="container">
+            <div class="row">
+                <div class="intro col-12">
+                    <h1>Work To-Do</h1>
+                </div>
 
-        <header>
-            <h1> Facts about a Lion</h1>
-        </header>
+            <div class="row">
+                <div class="helpText col-12">
+                    <p id="first">Enter text into the input field to add items to your list</p>
+                    <p id="second">Click the item to mark it as complete</p>
+                    <p id="third">Click the "X" to remove the item from your list</p>
+                </div>
+            </div> 
+         </div>
 
-        <img src="Lion.jpg" alt="Lion Picture" height="300" width="300">
-        <img src="lion2.jpg" alt="Lion Picture" height="300" width="300">
+         <div class="row">
+             <div class="col-12">
+                <input id="userInput" type="text" placeholder="New Item" maxlength="27">
+                <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+             </div>
+         </div>
 
-        <p>This 
-            <strong>Lion</strong>
-             was found in the <strong><i>beautiful</i></strong> savanna. 
-            <br>It was found with no home and <strong><u>wildlife photographers</u></strong> found this 
-            <strong>Lion</strong>
-             in the wild.</br></p>
+         <div class="row">
+             <div class="listItems col-12">
+                 <ul class="col-12 offset-0">
 
-        <table style="width:60%">
-            <tr>
-                <th> Name </th>
-                <th> Country </th>
-            </tr>
-            <tr>
-                <td> Jack </td>
-                <td> Kenya </td>
-            </tr>
-            <tr>
-                <td> John </td>
-                <td> Nigeria </td>
-            </tr>
-        </table>
-        <p><a href="https://www.worldwildlife.org/">WWF:</a> <q>We have found these two Lions in captivity</q></p>
-
-
-
+                 </ul>
+             </div>
+         </div>
+        </div>
+    <script type="text/javascript" src="scripts.js"></script>
     </body>
-
 </html>
